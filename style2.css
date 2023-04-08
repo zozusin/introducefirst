@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+	font-family: 'TheJamsil5Bold';
+    background-color: white;
+}
+
+
+.profileBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.profileBottomBox{
+    /* background-color: red; */
+    display: flex;
+    margin: 100px;
+    padding: 0 auto;
+    width:1000px;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bold
+}
+
+.profileSubject{
+    font-size: 50px;
+}
+
+.photo{
+    width: 250px;
+    height: 300px;
+    border-radius: 500px;
+    margin-top: -20px;
+}
+
+header {
+    margin-top: 50px;
+}
+
+.subject {
+    background-color: white;
+}
+
+button {
+    width: 120px;
+    height: 60px;
+    border: none;
+    font-family: 'TheJamsil5Bold';
+    border-radius: 10px;
+}
+
+a {
+    transition: transform 0.2s ease;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+

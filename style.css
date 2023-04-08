@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'TheJamsil5Bold';
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .introduceParents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+/* .photo {
+    width: 200px;
+    margin-bottom: 50px;
+    background-color: yellow;
+} */
+
+.introduce {
+    /* background-color: red; */
+    text-align: center;
+    font-size: 60px;
+    /* margin-bottom: 100px;
+    padding-top: 100px; */
+    padding-bottom: 100px;
+
+}
+
+.buttonBox {
+    display:flex;
+    width: 800px;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 120px;
+    height: 60px;
+    border: none;
+    font-family: 'TheJamsil5Bold';
+    border-radius: 10px;
+    background-color:linen;
+}
+
+.subject {
+    background-color: white;
+}
+
+.home {
+    display: flex;
+    margin-top: -150px;
+    margin-bottom: 100px;
+    /* background-color: blueviolet; */
+    justify-content: center;
+}
+
+/* .boxTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 1000px;
+} */
+
+.boxBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-items: center;
+}
+
+
+span {
+    color:darkviolet;
+}
