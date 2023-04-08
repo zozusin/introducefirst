@@ -35,10 +35,6 @@ button {
 
 }
 
-/* .imgBox {
-    display:flex;
-    justify-content: center;
-} */
 
 img {
     margin-right: 50px;
@@ -46,7 +42,6 @@ img {
 
 
 header {
-    /* background-color: aqua; */
     text-align: center;
     font-size: 50px;
 }
